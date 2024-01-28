@@ -4,7 +4,7 @@
 
 **When providing the command with no arguments, the user will be taken into their home directory** 
 
-As shown below, the user's working directory was previously the messages folder, however after running the command the terminal prompt only displays the `~`, indicating that they were taken back into the home directory. As shown by the second use of the command - which is in the messages rather than lecture1 directory - the user will be taken to the home no matter what the current directory is. 
+As shown below, the user's working directory was previously the lecture1 folder: `~/lecture1`, however after running the command the terminal prompt only displays the `~`, indicating that they were taken back into the home directory. As shown by the second use of the command - which is in the messages folder within the lecture1 directory: `~/lecture1/messages` - the user will be taken to the home no matter what the current directory is. This is not an error, more akin to a shortcut, allowing one to get to home `~` without having to provide a path to the ternimanl. 
 ```
 [user@sahara ~/lecture1]$ cd
 [user@sahara ~]$
