@@ -11,7 +11,7 @@ As shown below, the user's working directory was previously the messages folder,
 
 [user@sahara ~/lecture1/messages]$ cd
 [user@sahara ~]$
-```
+```  
 
 **When providing the command a directory path as an argument, the user will be taken into the directory they provided**
 
