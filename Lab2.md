@@ -65,3 +65,19 @@ Everytime a change is made to the URL, the `handleRequest()` is called an additi
 In short, the same methods are called in this example as the first, but the `handleRequest()` is called more times in order to reflect the changes made to the server's URL. 
 
 ## Part 2
+*Private key*
+
+![image](https://github.com/Sa-Rangaraj/cse15l-lab-reports/assets/158000497/fcfb9e92-eada-4690-a95d-eda6c5553135)
+
+*Public key*
+
+![image](https://github.com/Sa-Rangaraj/cse15l-lab-reports/assets/158000497/73abc3af-9194-4f6e-b8cd-677b3b8f2604)
+
+*Logging in with ssh without password*
+
+![Screenshot_20240129_223231](https://github.com/Sa-Rangaraj/cse15l-lab-reports/assets/158000497/a0bdaba3-233a-44e1-8f0d-ae44ac2b48b2)
+
+## Part 3
+
+
+
