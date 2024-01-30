@@ -79,5 +79,4 @@ In short, the same methods are called in this example as the first, but the `han
 
 ## Part 3
 
-
-
+Something new I learned in lab from weeks 2-3 was how to log into remote computers from one's terminal. I learned that by using the `ssh` command and providing it our server username, we can connect to that server remotly. Once logged in, our terminal acts as if we are in a completely different system; we no longer have acess to our previous directories, but we now have acess to directories that we were not on our machine before. Additionally, I learned that by running the command `ssh-keygen` we could create a public key, which allows us to log into our desired server without having to provide a password each time. 
