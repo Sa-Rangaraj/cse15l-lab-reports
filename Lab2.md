@@ -1,8 +1,8 @@
-#Lab Report 2 - Servers and SSH Keys (Week 3)
+# Lab Report 2 - Servers and SSH Keys (Week 3)
 
-##Part 1
+## Part 1
 
-Implementation of the ChatServer class:
+*Implementation of the ChatServer class:*
 ```
 import java.io.IOException;
 import java.net.URI;
@@ -63,3 +63,5 @@ Example 2 utilizing Chat Server
 Everytime a change is made to the URL, the `handleRequest()` is called an additional time to handle the new changes made by the user. For example, in the screenshot above, the URL was changed an altered an additional two times. As a result, the `handleRequest()` method would have been called twice, and each time the program would have found the `user` and `message` using the `getQuery()` and `split()` methods, and appended this information into the `chatLog` field. Each time this is done, the `chatLog` ArrayList is returned back to the `start()` method where it is printed in it's entierty, resulting in the browser showing the user a list of all the messages that have been created while the server has been active. 
 
 In short, the same methods are called in this example as the first, but the `handleRequest()` is called more times in order to reflect the changes made to the server's URL. 
+
+## Part 2
