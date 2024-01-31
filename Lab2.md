@@ -95,7 +95,8 @@ In short, the same methods are called in this example as the first, but the `han
 
 *Logging in with ssh without password*
 
-![Screenshot_20240129_223231](https://github.com/Sa-Rangaraj/cse15l-lab-reports/assets/158000497/a0bdaba3-233a-44e1-8f0d-ae44ac2b48b2)
+![image](https://github.com/Sa-Rangaraj/cse15l-lab-reports/assets/158000497/05f915ee-5bd5-41c9-bc3a-f43004edf3b7)
+
 
 ## Part 3
 
