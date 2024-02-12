@@ -91,7 +91,7 @@ In short, the same methods are called in this example as the first, but the `han
 
 *Public key*
 
-![image](https://github.com/Sa-Rangaraj/cse15l-lab-reports/assets/158000497/73abc3af-9194-4f6e-b8cd-677b3b8f2604)
+![image](https://github.com/Sa-Rangaraj/cse15l-lab-reports/assets/158000497/e620bf26-74ac-4e27-b0b8-5331fde3e59a)
 
 *Logging in with ssh without password*
 
