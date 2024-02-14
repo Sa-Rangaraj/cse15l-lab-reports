@@ -175,6 +175,7 @@ In this example, we're using nearly the exact same command as we did in the `-n`
 
 ![image](https://github.com/Sa-Rangaraj/cse15l-lab-reports/assets/158000497/f00e4f55-3cc6-45f0-9be0-ff250cf0b715)
 
+
 This example also builds off of `-n`'s second example: we are using the command `grep -o "vertebrates" technical/biomed/1471-213X-1-6.txt` to search for the pattern "vertebrates" wthin the file `/home/sahana/Projects/School/CSE_15/Lab4_Workspace/Lab4_docsearch/technical/biomed/1471-213X-1-6.txt`. As the previous example found two lines that included the string, "vertebrates", this output simply consists of "vertebrates" being printed to terminal twice. 
 
 Unlike some of the previous options, `-o` is actually more helpful when the user doesn't intend to read the file or the surrounding context for themselves. Perhaps they simply want to know how many times a certain word or phrase appears. Allowing the user the choice to seperate the patter from it's context provided them an easier route to manipulate the data, as now they can directly preform actions such as counting how many the pattern appears, or diserning it's frequency within the greater file, using additional commands without having to worry about handling data that is not relevant for their usage. 
