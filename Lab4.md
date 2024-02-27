@@ -41,13 +41,13 @@ To type in this argument, I made the consecutive keystroke `<ctrl> <shift> v`. T
 3. `l` `<tab>`
 4. `<enter>`
 
-This `cd` command was used to enter the `~/lab7` directory, as it contains the bash file we will be using to run the tests. The reason for typing `<tab>` after `l` instead of typing out the entire directory name was also for convieneice. Because there is only one folder in the home direcotry that starts with an "l", the terminal can "assume" the directory we're attempting to acess, and "fill in" the rest of the name for us. This also has the additional benfit of allowing us to confirm that the path we're trying to acess can be acessed by this working directory, and reduces the chance for humman errors such as typos. 
+This `cd` command was used to enter the `~/lab7` directory, as it contains the file we will be using to run the tests. The reason for typing `<tab>` after `l` instead of typing out the entire directory name was also for convieneice. Because there is only one folder in the home direcotry that starts with an "l", the terminal can "assume" the directory we're attempting to acess, and "fill in" the rest of the name for us. This also has the additional benfit of allowing us to confirm that the path we're trying to acess can be acessed by this working directory, and reduces the chance for humman errors such as typos. 
 
 5. `b` `a` `s` `h` 
-6. 
+6. `t` `<tab>`
 8. `<enter>`
 
-Similarly to the previous step, I used the above keys to "paste" commands into the terminal (note that before each paste, I navigated to the window containg the command I needed, and copied it using `<ctrl> c`). While I theoretically could have used the `<up arrow>` to acess my history, as I had used these command when completing the lab, I had used a significant amount of other commands that it was actually less time consuming to navigate to a different window and copy them from there. The first command I pasted compiled the two `.jar` files from the `~/lab7/lib` folder (which are needed by JUnit for the test cases) and all the Java files found within the current working directory: `~/lab7`. The second "paste" executed a command which runs all the afermentioned files, consequently running the test case file, as it is a `.java` file imediatly in the working directory. 
+The `bash` command is used to run `.sh` files, similarly to how `java` is used to run Java files. Again, because there is only one file that sharts with the character "t" in the current working directory, using the `<tab>` key will "fill in the blanks" for the argument, finishing the name of the `.sh` file for us. This script contains the commands that both compile and run all the java files in the working directory, and the two files in `~/lab7/lib` that JUnit needs to properly run the test cases. Thus, by running the script, we are also compiling and running our test cases, the results of which are printed to the terminal. 
 
 *Screenshot of Terminal* 
 
@@ -90,8 +90,48 @@ The `<up arrow>` key was used repeatedly to move the cursor from the bottom of t
 **Step 8: Run the tests, demonstrating that they now succeed**
 
 *Keys pressed*
-1. `<up arrow>` (3 times)
+1. `<up arrow>` (2 times)
 2. `<enter>`
-3. `<up arrow>` (3 times)
-4. `<enter>`
+
+To run our test cases again, instead of retyping `bash` and the file name, we can instead use the `<up arrow>` to acess our history, just as we did in Step 4. As we ran another command after executing our script, we now have to use the kew twice, as opposed to one, seeing as it's "further back" in our history. 
+
+*Screenshot of Terminal* 
+
+![image](https://github.com/Sa-Rangaraj/cse15l-lab-reports/assets/158000497/e477a845-4e3b-42e5-a527-5eea426cce68)
+
+
+
+**Step 9: Commit and push the resulting change to your Github account**
+
+*Keys pressed*
+1. `g` `i` `t`
+2. `<space>`
+3. `c` `o` `m` `m` `i` `t`
+4. `<space>`
+5. `-` -a`
+6. `<enter>`
+
+
+7. `i`
+8. `A` `l` `l`
+9. `<space>`
+10. `t` `e` `s` `t`
+11. `<space>`
+12. `c` `a` `s` `e` `s`
+13. `<space>`
+14. `s` `u` `c` `c` `e` `e` `d`
+15. `<escape>`
+16. `:` `w` `q`
+12. `<enter>`
+
+
+
+*Screenshot of Commit* 
+
+![image](https://github.com/Sa-Rangaraj/cse15l-lab-reports/assets/158000497/a56eb32d-d419-4965-b6fa-c9fa19b858b6)
+
+*Screenshot of Push*
+
+![image](https://github.com/Sa-Rangaraj/cse15l-lab-reports/assets/158000497/2577f90c-5181-402f-9e95-520b467e4016)
+
 
