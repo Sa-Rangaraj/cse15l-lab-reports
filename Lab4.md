@@ -108,9 +108,10 @@ To run our test cases again, instead of retyping `bash` and the file name, we ca
 2. `<space>`
 3. `c` `o` `m` `m` `i` `t`
 4. `<space>`
-5. `-` -a`
+5. `-` `a`
 6. `<enter>`
 
+The `git commit -a` command both stages and commits all the changes made to the files. It then automatically opens up a vim interface to allow the user to type their commit message.
 
 7. `i`
 8. `A` `l` `l`
@@ -124,6 +125,14 @@ To run our test cases again, instead of retyping `bash` and the file name, we ca
 16. `:` `w` `q`
 12. `<enter>`
 
+Simlarly to step 7, the `i` key is used to change the user to input mode, so they keys pressed are added to the file, rather than acting as commands. All the following characters before the `<escape>` key (which switches us back out of insert mode) make up the commit message. As it did before, the `:wq` command saves the changes made to the file, and allows the commit to finish executing. 
+
+13. `g` `i` `t`
+14.  `<space>`
+15.  `p` `u` `s` `h`
+16.  `<enter>`
+
+The `git push` command pushes all the current commits to the remote version of the users branch on Github, where it also displays the commit message the user previously added. 
 
 
 *Screenshot of Commit* 
