@@ -42,8 +42,31 @@ StudentCode/
   |-  test.sh
 ```
 
+*Contents of file (with bugs)*
+
+![image](https://github.com/Sa-Rangaraj/cse15l-lab-reports/assets/158000497/a7355bb6-66d5-4ebd-8728-9290f71b1b83)
+
+![image](https://github.com/Sa-Rangaraj/cse15l-lab-reports/assets/158000497/0fe7890a-b2ff-4782-abf0-4a62e655f76e)
+
+![image](https://github.com/Sa-Rangaraj/cse15l-lab-reports/assets/158000497/ddbfb725-9302-41ea-b8e9-f3abf9b3e2a8)
 
 
+*Command line to trigger bugs*
+
+![image](https://github.com/Sa-Rangaraj/cse15l-lab-reports/assets/158000497/5441c4fe-335f-451a-9bbd-5bdd63ed3f13)
+
+Which is a concise way of running the lines 
+```
+javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
+java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
+```
+
+which are used to compile the neccesary files, and run the Junit tester class. 
+
+
+*Description of what to edit to fix the bug*
+
+In order to fix this bug, the student would have to 
 
 
 
