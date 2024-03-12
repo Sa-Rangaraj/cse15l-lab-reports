@@ -1,6 +1,6 @@
-# Lab Report 3 - Bugs and Commands (Week 5)
+# Lab Report 5 - Putting it All Together (Week 9)
 
-## Part 1 - Bugs
+## Part 1 - Debugging Scenario
 
 **Student Post:**
 
@@ -107,6 +107,11 @@ In order to fix this bug, the student would have to change `index1` on line 45 t
 
 
 
+## Part 2 - Reflection
+
+Something new I learned during the later half of the quarter was how to use the Java Debugger from the terminal. While I was already familiar with the debugger system in VS Code, I was unaware that it was based off the Java Debugger. Additionally, it was intresting learning about the differences between the two systems. The java debugger for example seemed more effecient to use when the user was already familiar with their problem - as it could isolate certain variables, run methods on them, and even identify when specifically variables were altered or created. On the other hand, the VS Code debugger, while great for hollistic information, did sacrice may of this features in favor for it's visual approach. Sometimes it felt like I had to dig through several diffferent layers, in order to find what should have been vary basic information. 
+
+The "coolest" thing I think I learned about the debugger was the `list` command. When practicing for the Skill Demo, I was getting frustrated with the debugger, as it felt very unintuitive to use. I was used the afermentioned visual approach of the VS Code debugger, and was used to being able to look at the surrounding context of the code. After asking my father for help, he taught me about the `list` command, which could provide that surounding context I was missing. It helped "bridge the gap" in a sence, and made the JDB much less intimadating to use. 
 
 
 
