@@ -14,6 +14,8 @@ Based off my test case results, I think that my second merge method is casing th
 
 Hello Student! Unfortunatly, I can't give you much help without being able to look at you code myself, as there are an infinite amount of cases in which may result in this error. 
 
+
+
 However, what I can tell you is that this error is thrown when your code is attempting to create a new object, but finds that it doesn't have enough space in memory to store it. For the scale of the programs we write in CSE 15, memmory allocation shouldn't be an issue. Is there any reason your code may be creating more objects / using more memory than you intended?
 
 If your code has a main method, you can try using the Java debugger from the terminal to look at the creation of your local variables. Another way you could debug your code is by putting print statements near the lines where object creation is occuring, to see if those lines of code are running when you don't intend them to. (Hint: take another look at the error message to see when exactly the error was thrown, you may be able to use it to "work backwards" to find the bug) 
@@ -102,10 +104,6 @@ which are used to compile the neccesary files, and run the Junit tester class.
 *Description of what to edit to fix the bug*
 
 In order to fix this bug, the student would have to change `index1` on line 45 to `inedx2`, so the third while loop's exit criteria can actually be met.
-
-
-
-
 
 
 
