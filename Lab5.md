@@ -10,7 +10,6 @@ Based off my test case results, I think that my second merge method is casing th
 
 ![image](https://github.com/Sa-Rangaraj/cse15l-lab-reports/assets/158000497/ea15df06-56dc-4c5d-bb6c-94349eb2f89d)
 
-
 **Tutor Response:**
 
 Hello Student! Unfortunatly, I can't give you much help without being able to look at you code myself, as there are an infinite amount of cases in which may result in this error. 
@@ -21,6 +20,40 @@ If your code has a main method, you can try using the Java debugger from the ter
 
 Good luck!
 
+**Debuging Process* 
+*Changes made from tutor's advice*
+In `~/StudentCode/ListExamples.Java`
+
+
+![image](https://github.com/Sa-Rangaraj/cse15l-lab-reports/assets/158000497/81413d7d-a317-4d2b-bc72-63c7e504d239)
+
+
+*Terminal Output*
+```
+adding from list 2 (loop3)
+adding from list 2 (loop3)
+adding from list 2 (loop3)
+adding from list 2 (loop3)
+adding from list 2 (loop3)
+adding from list 2 (loop3)
+adding from list 2 (loop3)
+adding from list 2 (loop3)
+adding from list 2 (loop3)
+adding from list 2 (loop3)
+adding from list 2 (loop3)
+adding from list 2 (loop3)
+adding from list 2 (loop3)
+adding from list 2 (loop3)
+adding from list 2 (loop3)
+org.junit.runners.model.TestTimedOutException: test timed out after 500 milliseconds
+```
+
+*the code block above only shows a portion of the output, for ease of reading 
+
+
+As shown from the terminal output after debugging, the code is -unwantedly- copying elements from the second list, and adding them to our results variable. Because the student specified the loop each print statement was in, the student can focus on debugging their thrid while loop, rather than attempting to look through the entire file from errors. 
+
+By isolating the portion of the code that contains the issue, and comparing it to it's parallel in with first while loop, which serves a similar function yet doesn't result in the infinite object creation, the student may realize that they accidently incremented the variable `index1` instead of `index2`. As a result, `index2` will never be greater than or equal to `list2.size()`, resulting in an infinite loop that eventually throws the afermentioned error. 
 
 
 
@@ -44,9 +77,11 @@ StudentCode/
 
 *Contents of file (with bugs)*
 
-![image](https://github.com/Sa-Rangaraj/cse15l-lab-reports/assets/158000497/a7355bb6-66d5-4ebd-8728-9290f71b1b83)
+![image](https://github.com/Sa-Rangaraj/cse15l-lab-reports/assets/158000497/e419d642-c956-4792-8a40-9ba76a4d8cae)
+
 
 ![image](https://github.com/Sa-Rangaraj/cse15l-lab-reports/assets/158000497/0fe7890a-b2ff-4782-abf0-4a62e655f76e)
+
 
 ![image](https://github.com/Sa-Rangaraj/cse15l-lab-reports/assets/158000497/ddbfb725-9302-41ea-b8e9-f3abf9b3e2a8)
 
@@ -66,7 +101,7 @@ which are used to compile the neccesary files, and run the Junit tester class.
 
 *Description of what to edit to fix the bug*
 
-In order to fix this bug, the student would have to 
+In order to fix this bug, the student would have to change `index1` on line 45 to `inedx2`, so the third while loop's exit criteria can actually be met.
 
 
 
